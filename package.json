@@ -1,0 +1,46 @@
+{
+  "name": "gmt-admin",
+  "version": "1.0.0",
+  "description": "gmt-admin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env BUILD_GOAL=development NODE_ENV=development webpack serve --config ./webpack/webpack.dev.js --stats-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makejun168/gmt-admin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makejun168/gmt-admin/issues"
+  },
+  "homepage": "https://github.com/makejun168/gmt-admin#readme",
+  "dependencies": {
+    "antd": "^5.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.16.0",
+    "react-router-dom": "^6.16.0"
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
+    "antd-dayjs-webpack-plugin": "^1.0.6",
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "circular-dependency-plugin": "^5.2.2",
+    "dotenv-webpack": "^8.0.1",
+    "eslint-webpack-plugin": "^4.0.1",
+    "fork-ts-checker-webpack-plugin": "^8.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "portfinder": "^1.0.32",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "webpack": "^5.88.2",
+    "webpack-bundle-analyzer": "^4.9.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-merge": "^5.9.0",
+    "webpackbar": "^5.0.2"
+  }
+}
